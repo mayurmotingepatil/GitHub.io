@@ -80,10 +80,7 @@ p {
     padding-top: 50vh;
     height: 100vh;
 }
- .head p {
-    display: inline-block;
-    width: 70%;
-}
+
 
 
  /*---DIVISIONS---*/
@@ -215,11 +212,10 @@ div .bott_links{
     .head {
         background: linear-gradient(340deg, black, rgba(0,0,0,0));
         text-align: center;
-        padding-left: 0%;
-        padding-right: 0%;
+        padding-left: 10%;
+        padding-right: 10%;
         padding-top: 70vh; 
         height: 45vh;
-        width: 100%;
     }
     .grid div {
         width: auto;
