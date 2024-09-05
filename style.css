@@ -143,6 +143,7 @@ p {
     display: inline-flex;
     color: white;
     gap: 30px ;
+    margin-bottom: 3px;
     list-style: none;
 }
 
