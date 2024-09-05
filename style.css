@@ -110,6 +110,10 @@ p {
     border-radius: 4px 4px;
 }
 
+.grid div p {
+    margin-top: 5px;
+}
+
 
 .sec_education {
     text-align: center;
