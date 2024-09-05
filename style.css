@@ -76,7 +76,7 @@ p {
 .head {
     background: linear-gradient(70deg, black, rgba(0,0,0,0));
     padding-left: 10%;
-    padding-right: 10%;
+    padding-right: 30%;
     padding-top: 50vh;
     height: 100vh;
 }
@@ -149,6 +149,10 @@ p {
 /*---FOOTER---*/
 .footer{
     border-bottom: none;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    display: block;
 }
 .footer div{
     margin-top: 30px;
@@ -160,15 +164,15 @@ div ul{
     margin-left: 10%;
     margin-right: 10%;
 }
-div .titles{
+.footer h5{
     list-style: none;
     display: block;
     padding-right: 0;
     padding-bottom: 15px;
     width: auto;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 div .bott_links{
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
     text-align: left;
     list-style: none;
     padding-top: 20px;
@@ -185,7 +189,7 @@ div .bott_links{
 }
 
 .bott_links p {
-    margin: 10px; 
+    margin: 5px; 
 
 }
 .bott_links img{
