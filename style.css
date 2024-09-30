@@ -67,7 +67,7 @@ p {
 /*---HEADER---*/
 .header{
     /*background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(images/background.jpg);*/
-    background-color: red; 
+    background-color: red;
     height: 100vh;
     background-position: center;
     background-size: cover;
