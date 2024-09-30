@@ -67,11 +67,27 @@ p {
 /*---HEADER---*/
 .header{
     /*background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(images/background.jpg);*/
-    background-color: gray; 
+    background-color: red; 
     height: 100vh;
     background-position: center;
     background-size: cover;
+    animation: animate 20s linear infinite;
 }
+
+@keyframes animate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    50% {
+        filter: hue-rotate(360deg);
+    }
+
+    100% {
+        filter: hue-rotate(0deg);
+    }
+}
+
 
 .head {
     background: linear-gradient(70deg, black, rgba(0,0,0,0));
