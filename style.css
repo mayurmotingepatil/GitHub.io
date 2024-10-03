@@ -55,24 +55,8 @@ p {
     background-color: red;
     height: 100vh;
     background-position: center;
-    background-size: cover;
-    animation: animate 20s linear infinite;
+    background-size: cover;;
 }
-
-@keyframes animate {
-    0% {
-        filter: hue-rotate(0deg);
-    }
-
-    50% {
-        filter: hue-rotate(360deg);
-    }
-
-    100% {
-        filter: hue-rotate(0deg);
-    }
-}
-
 
 .head {
     background: linear-gradient(70deg, black, rgba(0,0,0,0));
@@ -80,6 +64,7 @@ p {
     padding-right: 30%;
     padding-top: 50vh;
     height: 100vh;
+    animation: animate 20s linear infinite
 }
 
 /*---NAVBAR---*/
@@ -271,3 +256,19 @@ div .bott_links{
         text-align: center;
     }
 }
+
+
+@keyframes animate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    50% {
+        filter: hue-rotate(360deg);
+    }
+
+    100% {
+        filter: hue-rotate(0deg);
+    }
+}
+
