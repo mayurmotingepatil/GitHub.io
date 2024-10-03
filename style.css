@@ -56,7 +56,6 @@ p {
     height: 100vh;
     background-position: center;
     background-size: cover;
-    animation: animate 20s linear infinite;
 }
 
 .head {
@@ -254,21 +253,6 @@ div .bott_links{
     }
     .abt_logo p{
         text-align: center;
-    }
-}
-
-
-@keyframes animate {
-    0% {
-        filter: hue-rotate(0deg);
-    }
-
-    50% {
-        filter: hue-rotate(360deg);
-    }
-
-    100% {
-        filter: hue-rotate(0deg);
     }
 }
 
