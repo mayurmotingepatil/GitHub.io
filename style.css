@@ -49,6 +49,21 @@ p {
     font-family: 'Times New Roman';
 }
 
+/*---NAVBAR---*/
+.navbar{
+    width: 100%; 
+    position: fixed;
+    text-align: center;  
+    background: linear-gradient(black,rgba(0,0,0,0));
+}
+.navbar img{
+    padding-top: 20px;
+    width: 120px;
+}
+.main_bold{
+    border-bottom: 1px solid white;
+}
+
 /*---HEADER---*/
 .header{
     /*background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(images/background.jpg);*/
@@ -64,21 +79,6 @@ p {
     padding-right: 30%;
     padding-top: 50vh;
     height: 100vh;
-}
-
-/*---NAVBAR---*/
-.navbar{
-    width: 100%; 
-    position: fixed;
-    text-align: center;  
-    background: linear-gradient(black,rgba(0,0,0,0));
-}
-.navbar img{
-    padding-top: 20px;
-    width: 120px;
-}
-.main_bold{
-    border-bottom: 1px solid white;
 }
 
  /*---DIVISIONS---*/
