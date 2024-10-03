@@ -55,7 +55,8 @@ p {
     background-color: red;
     height: 100vh;
     background-position: center;
-    background-size: cover;;
+    background-size: cover;
+    animation: animate 20s linear infinite;
 }
 
 .head {
@@ -64,7 +65,6 @@ p {
     padding-right: 30%;
     padding-top: 50vh;
     height: 100vh;
-    animation: animate 20s linear infinite
 }
 
 /*---NAVBAR---*/
