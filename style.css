@@ -92,7 +92,7 @@ p {
 
 .sec_experience .grid {
     margin: 15px;
-    display: inline-flex; 
+    display: flex; 
 }
 .grid div {
     box-shadow: 5px white;
