@@ -94,7 +94,7 @@ p {
     margin: 15px;
 }
 .grid div {
-    box-shadow: 5px white;
+    box-shadow: 5px 5px 2px 0px white;
     width: 500px;
     text-align: left;
     padding: 8px;
