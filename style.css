@@ -99,7 +99,10 @@ p {
     width: 500px;
     text-align: left;
     padding: 8px;
-    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 12px;
     border-left: 0.15px solid white;
     border-top: 0.15px solid white;
     border-radius: 4px 4px;
