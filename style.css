@@ -92,7 +92,7 @@ p {
 
 .sec_experience .grid {
     margin: 15px;
-    display:block;
+    display: inline-block;
 }
 .grid div {
     box-shadow: 1px 1px 5px 0px white;
@@ -120,7 +120,7 @@ p {
 
 .sec_education .grid {
     margin: 15px;
-    display: inline-flex;
+    display: inline-block;
 }
 
 .sec_skills {
