@@ -94,6 +94,33 @@ p {
     margin: 15px;
     display: inline-block;
 }
+
+.sec_education {
+    text-align: center;
+    margin-top: 50px; 
+    padding-bottom: 50px; 
+    border-bottom: 1px solid white;
+
+}
+
+.sec_education .grid {
+    margin: 15px;
+    display: inline-block;
+}
+
+.sec_projects {
+    text-align: center;
+    margin-top: 50px; 
+    padding-bottom: 50px; 
+    border-bottom: 1px solid white;
+
+}
+
+.sec_projects .grid {
+    margin: 15px;
+    display: inline-block;
+}
+
 .grid div {
     box-shadow: 1px 1px 5px 0px rgba(255, 255, 255, 0.3);
     width: 500px;
@@ -110,20 +137,6 @@ p {
 
 .grid div p {
     margin-top: 6px;
-}
-
-
-.sec_education {
-    text-align: center;
-    margin-top: 50px; 
-    padding-bottom: 50px; 
-    border-bottom: 1px solid white;
-
-}
-
-.sec_education .grid {
-    margin: 15px;
-    display: inline-block;
 }
 
 .sec_skills {
