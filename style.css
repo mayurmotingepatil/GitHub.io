@@ -86,7 +86,7 @@ p {
      text-align: center ;
      padding-top: 50px;
      padding-bottom: 50px;
-     background: linear-gradient(90deg, black, rgba(160,160,160));
+     background: linear-gradient(90deg, black, rgba(90,90,90));
      border-bottom: 1px solid white;
      border-top: 1px solid white;
  }
@@ -99,7 +99,7 @@ p {
 .sec_education {
     text-align: center;
     padding-top: 50px; 
-    background: linear-gradient(90deg, black, rgba(160,160,160));
+    background: linear-gradient(90deg, black, rgba(90,90,90));
     padding-bottom: 50px; 
     border-bottom: 1px solid white;
 
@@ -114,7 +114,7 @@ p {
     text-align: center;
     padding-top: 50px; 
     padding-bottom: 50px; 
-    background: linear-gradient(90deg, black, rgba(160,160,160));
+    background: linear-gradient(90deg, black, rgba(90,90,90));
     border-bottom: 1px solid white;
 
 }
@@ -143,9 +143,9 @@ p {
 }
 
 .sec_skills {
-    margin-top: 50px; 
+    padding-top: 50px; 
     padding-bottom: 50px; 
-    background: linear-gradient(90deg, black, rgb(160, 160, 160));
+    background: linear-gradient(90deg, black, rgb(90, 90, 90));
     border-bottom: 1px solid white;
 
 }
@@ -171,8 +171,9 @@ p {
 /*---FOOTER---*/
 .footer{
     border-bottom: none;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    background: linear-gradient(90deg, black, rgba(90,90,90));
+    padding-top: 30px;
+    padding-bottom: 50px;
     text-align: center;
     display: block;
 }
