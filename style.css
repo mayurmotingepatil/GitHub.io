@@ -188,7 +188,7 @@ p {
 }
 
 div .addresses{
-    width: 50%;
+    width: 60%;
     display: inline-block;
     text-align: left;
     list-style: none;
@@ -200,6 +200,7 @@ div .addresses{
 }
 
 .addresses li{
+    text-align: left;
     margin-top: 10px;
     display: flex;
     align-items: center;
@@ -214,10 +215,11 @@ div .addresses{
 }
 
 div .bott_links{
-    width: 50%;
+    width: 40%;
+    text-align: right;
     list-style: none;
     display: inline-flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 20px;
@@ -309,7 +311,8 @@ div .bott_links{
     }
     
     div .addresses{
-        text-align: left;
+        width: 50%;
+        text-align: center;
         list-style: none;
         padding-top: 20px;
         padding-left: 25px;
@@ -318,9 +321,10 @@ div .bott_links{
     }
     
     div .bott_links{
+        width: 60%;
         text-align: center;
         list-style: none;
-        flex-direction: column-reverse;
+        flex-direction: column;
         padding-top: 20px;
         padding-right: 25px;
         padding-left: 25px;
