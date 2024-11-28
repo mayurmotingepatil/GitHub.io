@@ -76,8 +76,16 @@ p {
     background: linear-gradient(70deg, black, rgba(0,0,0,0));
     padding-left: 10%;
     padding-right: 30%;
-    padding-top: 50vh;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.head .profile_photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
 }
 
  /*---DIVISIONS---*/
@@ -88,8 +96,7 @@ p {
      padding-bottom: 50px;
      background: linear-gradient(90deg, black, rgba(30,30,30));
      border-bottom: 1px solid white;
-     border-top: 1px solid white;
- }
+}
 
 .sec_experience .grid {
     padding: 15px;
@@ -257,13 +264,21 @@ div .bott_links{
     }
 
     .head {
-        background: linear-gradient(340deg, black, rgba(0,0,0,0));
-        text-align: center;
+        background: linear-gradient(30deg, black, rgba(0,0,0,0));
         padding-left: 10%;
         padding-right: 10%;
-        padding-top: 70vh; 
-        height: 45vh;
+        height: 100vh;
+        display: block;
+        align-items: center;
+        gap: 30px;
     }
+    .head .profile_photo{
+        width: 150px;
+        height: 150px;
+        border-radius: 150px;
+        margin-top: 60vh;
+    }
+
     .grid div {
         width: auto;
     }
