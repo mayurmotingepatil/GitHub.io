@@ -69,6 +69,18 @@ p {
     background-position: center;
     background-size: cover;
     border-bottom: 1px solid white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.sub_header{
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(images/background3.jpg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 1px solid white;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .head {
@@ -90,12 +102,15 @@ p {
 
  /*---DIVISIONS---*/
 
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(90deg, black, rgba(30,30,30));
+    border-bottom: 1px solid white;
+}
+
  .sec_experience{
      text-align: center ;
-     padding-top: 50px;
-     padding-bottom: 50px;
-     background: linear-gradient(90deg, black, rgba(30,30,30));
-     border-bottom: 1px solid white;
 }
 
 .sec_experience .grid {
@@ -105,10 +120,6 @@ p {
 
 .sec_education {
     text-align: center;
-    padding-top: 50px; 
-    background: linear-gradient(90deg, black, rgba(30,30,30));
-    padding-bottom: 50px; 
-    border-bottom: 1px solid white;
 
 }
 
@@ -119,10 +130,6 @@ p {
 
 .sec_projects {
     text-align: center;
-    padding-top: 50px; 
-    padding-bottom: 50px; 
-    background: linear-gradient(90deg, black, rgba(30,30,30));
-    border-bottom: 1px solid white;
 }
 
 .sec_projects .grid {
@@ -149,13 +156,6 @@ p {
     margin-top: 6px;
 }
 
-.sec_skills {
-    padding-top: 50px; 
-    padding-bottom: 50px; 
-    background: linear-gradient(90deg, black, rgb(30, 30, 30));
-    border-bottom: 1px solid white;
-
-}
 
 .sec_skills div {
     text-align: center;
@@ -178,9 +178,7 @@ p {
 /*---FOOTER---*/
 .footer{
     border-bottom: none;
-    background: linear-gradient(90deg, black, rgba(30,30,30));
     text-align: center;
-    padding-bottom: 20px;
 }
 .footer div{
     padding-bottom: 10px;
@@ -190,7 +188,6 @@ p {
 .footer h5{
     list-style: none;
     padding-bottom: 15px;
-    padding-top: 50px;
 }
 
 div .addresses{
@@ -277,6 +274,11 @@ div .bott_links{
         border-radius: 150px;
         margin-top: 60vh;
     }
+
+    .sub_header h1{
+        padding-top: 50vh;
+    }
+    
 
     .grid div {
         width: auto;
